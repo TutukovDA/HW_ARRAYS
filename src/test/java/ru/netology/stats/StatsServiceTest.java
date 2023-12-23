@@ -17,7 +17,6 @@ public class StatsServiceTest {
         int expected = 15;
         int actual = service.avgSales(sales);
         Assertions.assertEquals(expected,actual);
-        System.out.println(actual);
     }
     @Test
     public void testMinSales() {
@@ -39,7 +38,6 @@ public class StatsServiceTest {
         int expected = 5;
         int actual = service.countMonthWithSalesUnderAverage(sales);
         Assertions.assertEquals(expected,actual);
-        System.out.println(expected+"   "+actual);
     }
     @Test
     public void testCountMonthWithSalesUpperAverage(){
@@ -47,6 +45,5 @@ public class StatsServiceTest {
         int expected = 5;
         int actual = service.countMonthWithSalesUpperAverage(sales);
         Assertions.assertEquals(expected,actual);
-        System.out.println(expected+"   "+actual);
     }
 }
