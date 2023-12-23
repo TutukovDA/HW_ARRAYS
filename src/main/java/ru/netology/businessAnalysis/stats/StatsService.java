@@ -1,4 +1,4 @@
-package ru.netology.stats;
+package ru.netology.businessAnalysis.stats;
 
 public class StatsService {
     public int avgSales(int[] sales) {
